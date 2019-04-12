@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77053C95223994AE009DA9A9 /* DataText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77053C94223994AE009DA9A9 /* DataText.swift */; };
 		77B46BE02230E9CF00EC2FC0 /* message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B46BDF2230E9CF00EC2FC0 /* message.swift */; };
 		77E119B8222FE18F0082F804 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E119B7222FE18F0082F804 /* AppDelegate.swift */; };
 		77E119BA222FE18F0082F804 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E119B9222FE18F0082F804 /* MainViewController.swift */; };
@@ -17,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		77053C94223994AE009DA9A9 /* DataText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataText.swift; sourceTree = "<group>"; };
 		77B46BDF2230E9CF00EC2FC0 /* message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = message.swift; sourceTree = "<group>"; };
 		77E119B4222FE18F0082F804 /* Pass Data Tab Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pass Data Tab Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E119B7222FE18F0082F804 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,14 +37,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		77053C96223994BF009DA9A9 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				77053C94223994AE009DA9A9 /* DataText.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		77E119AB222FE18F0082F804 = {
 			isa = PBXGroup;
 			children = (
@@ -66,7 +56,6 @@
 		77E119B6222FE18F0082F804 /* Pass Data Tab Controller */ = {
 			isa = PBXGroup;
 			children = (
-				77053C96223994BF009DA9A9 /* Models */,
 				77E119C922300EB70082F804 /* Controllers */,
 				77E119C3222FE1900082F804 /* Info.plist */,
 				77E119CA22300ED60082F804 /* Support files */,
@@ -168,7 +157,6 @@
 			files = (
 				77B46BE02230E9CF00EC2FC0 /* message.swift in Sources */,
 				77E119BA222FE18F0082F804 /* MainViewController.swift in Sources */,
-				77053C95223994AE009DA9A9 /* DataText.swift in Sources */,
 				77E119B8222FE18F0082F804 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
