@@ -8,10 +8,6 @@
 
 import UIKit
 
-protocol UITabBarDataSorceDelegate {
-    func getText(_ index: Int) -> String
-}
-
 class MainViewController: UIViewController, UITabBarDataSorceDelegate {
     // MARK: - @IBOutlets
     @IBOutlet weak var textLabel: UILabel!
